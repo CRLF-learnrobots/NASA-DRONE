@@ -1,4 +1,6 @@
-# NASA-DRONE 
+## NASA-DRONE 
+
+#Created by Mikey Limotta and Lance Plater
 
 Our drone consists of a simple design that adds onto the current sphere drones on the ISS. Since the weight and transportation to and from the ISS has a large price tag, our team wanted to design something that was as light as possible and utilizes realistic technology instead of theoretical technology. Such theoretical technology, such as a plasma generator, may pose an unknown threat to the astronauts once developed. Furthermore, the cost to produce and send a plasma generator to the ISS would only be a complex solution to a simple problem.
 
