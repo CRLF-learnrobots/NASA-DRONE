@@ -1,0 +1,5 @@
+Raspberry Pi 2 
+Depth sensor camera
+Lithium-Polymer 6000mAh Battery
+8 Computer fans
+CarbonFiber / Nylon 3d printed chassis

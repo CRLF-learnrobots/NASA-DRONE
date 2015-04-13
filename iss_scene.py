@@ -3,12 +3,12 @@
 
 from morse.builder import *
 
-env = Environment('<path>/<identifier>')
+env = Environment('iss')
+env.set_camera_location([0, 0, 0])
+env.set_camera_rotation([1.0470, 0, 0.7854])
 
 #Going to set variable for drone quadrotor robot
 drone = Quadrotor()
-morse.builder.morsebuilder.Robot.set_mass(1)
-morse.builder.
 
 #Properties
 drone.properties(NoGravity=True)
@@ -16,13 +16,12 @@ drone.properties(NoGravity=True)
 #Actuator
 motion = MotionVW()
 motion.translate(z=0.3)
-motionvw.rotate(.3, .3, .3)
 drone.append(motion)
 
 #Sensor
 pose = Pose()
 pose.translate(z=0.83)
-atrv.append(pose)
+drone.append(pose)
 
 #Middlewares
 pose.add_stream('socket')
